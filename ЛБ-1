@@ -1,0 +1,4 @@
+import math
+x = int(input('Введите число х: '))
+z = (math.e**(x) + math.sqrt(x))
+print (z)
