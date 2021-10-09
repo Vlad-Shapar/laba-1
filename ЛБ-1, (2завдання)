@@ -1,0 +1,6 @@
+s = 0
+n = int(input('Введите число n: '))
+str(n)
+for i in str(n):
+    s = s +int(i)
+    print(s)
