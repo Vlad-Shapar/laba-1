@@ -1,0 +1,27 @@
+import math
+x = int(input('Введите число х: '))
+z = math.tan(x)*3
+print(z)
+# Перше завдання
+
+x = int(input('Введите число х: '))
+n = int(input('Введите число n: '))
+z = x**n
+print(z)
+# Друге завдання
+
+numbers = [[1,2,3],[-1,4,0]]
+positive_numbers = []
+zero_numbers = []
+for number in numbers[0]:
+    if number > 0:
+        positive_numbers.append(number)
+    elif number == 0:
+        zero_numbers.append(number)
+for number in numbers[1]:
+    if number == 0:
+        zero_numbers.append(number)
+print('Числа: ', numbers)
+print('Додатні числа: ', positive_numbers)
+print('Нульові', zero_numbers)
+# Третє завдання
